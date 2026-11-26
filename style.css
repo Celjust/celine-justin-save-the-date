@@ -28,7 +28,7 @@ h2{font-size:clamp(2.8rem,7vw,4.7rem);line-height:1.05;margin:14px 0}
 h3{font-size:2rem;margin:8px 0}
 .memory-copy p{font-size:.82rem;color:var(--muted);max-width:310px}
 .memory.reverse .memory-copy p{margin-left:auto}
-.pawprint{position:absolute;left:calc(50% - 12px);top:45%;font-size:1.3rem;color:#9c8e7d;filter:grayscale(1)}
+.pawprint{position:absolute;left:calc(50% - 12px);top:45%;font-size:1.3rem;color:#59694e;filter:grayscale(1)}
 .date-section{max-width:none;background:var(--paper2);padding-left:22px;padding-right:22px}
 .date-section h2{margin:20px 0}
 .date{font-size:clamp(2.1rem,5vw,3.5rem);margin:28px 0 0}
@@ -48,7 +48,7 @@ h3{font-size:2rem;margin:8px 0}
 .signature{font-size:2rem;margin:25px 0}
 .last-line{font-family:"Cormorant Garamond",Georgia,serif;font-style:italic;font-size:1.35rem;color:var(--muted)}
 .monogram{display:block;margin-top:55px;font-size:.65rem;letter-spacing:.25em;color:var(--muted)}
-.paw{position:fixed;z-index:-1;color:#b9aa96;opacity:.12;font-size:3rem;pointer-events:none}
+.paw{position:fixed;z-index:-1;color:#b59694e;opacity:.15;font-size:3rem;pointer-events:none}
 .paw-one{top:12%;left:4%;transform:rotate(-20deg)}.paw-two{right:4%;top:56%;transform:rotate(18deg)}
 footer{text-align:center;padding:25px 10px;color:var(--muted);font-size:.55rem}
 @media(max-width:650px){
