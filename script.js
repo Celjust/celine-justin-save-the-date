@@ -8,9 +8,19 @@ function updateCountdown(){
     Math.floor(diff / 60000) % 60,
     Math.floor(diff / 1000) % 60
   ];
-  ids.forEach((id,i)=>document.getElementById(id).textContent=String(values[i]).padStart(2,"0"));
+ ids.forEach((id, i) => {
+
+    document.getElementById(id).textContent =
+
+      String(values[i]).padStart(2, "0");
+
+  });
+
 }
-updateCountdown(); setInterval(updateCountdown,1000);
+
+updateCountdown();
+
+setInterval(updateCountdown, 1000);
 
 document.getElementById("calendarButton").addEventListener("click",()=>{
   const event = [
