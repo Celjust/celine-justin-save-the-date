@@ -1,14 +1,24 @@
 const weddingDate = new Date("2027-09-03T15:00:00");
-const ids = ["days","hours","minutes","seconds"];
-function updateCountdown(){
+
+const ids = ["days", "hours", "minutes", "seconds"];
+
+function updateCountdown() {
+
   const diff = Math.max(0, weddingDate.getTime() - Date.now());
+
   const values = [
+
     Math.floor(diff / 86400000),
+
     Math.floor(diff / 3600000) % 24,
+
     Math.floor(diff / 60000) % 60,
+
     Math.floor(diff / 1000) % 60
+
   ];
- ids.forEach((id, i) => {
+
+  ids.forEach((id, i) => {
 
     document.getElementById(id).textContent =
 
