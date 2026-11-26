@@ -1,7 +1,8 @@
 *{box-sizing:border-box}
 :root{--paper:#f1eee3;--paper2:#e7e6d8;--ink:#3f4938;--muted:#747d68;--line:#c9cdbb;--sage:#c9d0b9;--olive:#929f7b;--forest:#59694e;--sand:#d9cfb9;}
 html{scroll-behavior:smooth}
-body{margin:0;background:var(--paper);color:var(--ink);font-family:Montserrat,Arial,sans-serif;font-weight:300;line-height:1.75}
+body{margin:0;color:var(--ink);font-family:Montserrat,Arial,sans-serif;font-weight:300;line-height:1.75}background:radial-gradient(ellipse at 12% 8%,rgba (255,255,248,.9) 0%,transparent 38%),radial-gradient(ellipse at 88% 35%,rgba(196,207,179,.62) 0%,transparent 42%),linear-gradient(155deg,#f4f0e5 0%,#e5e7d9 46%,#d5ddc9 72%c#eee8d9 100%);
+background-attachement:fixed;}
 .hero,.section{padding:clamp(64px,10vw,130px) 22px;text-align:center}
 .hero{min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;background:radial-gradient(ellipse at center,#faf8f1 0%,var(--paper) 72%)}
 .eyebrow,.weekday,.scroll-cue,.text-link,footer{font-size:.67rem;letter-spacing:.22em;font-weight:500}
