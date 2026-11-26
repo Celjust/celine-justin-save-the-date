@@ -1,5 +1,5 @@
 *{box-sizing:border-box}
-:root{--paper:#f4f0e6;--paper2:#eee8dc;--ink:#3e3b36;--muted:#8b8173;--line:#d8cfc0;--blue:#344b78}
+:root{--paper:#f1eee3;--paper2:#e7e6d8;--ink:#3f4938;--muted:#747d68;--line:#c9cdbb;--sage:#c9d0b9;--olive:#929f7b;--forest:#59694e;--sand:#d9cfb9;}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:Montserrat,Arial,sans-serif;font-weight:300;line-height:1.75}
 .hero,.section{padding:clamp(64px,10vw,130px) 22px;text-align:center}
